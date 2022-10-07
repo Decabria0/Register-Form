@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Formu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <fieldset>
+            <legend><i class="fa fa-book" aria-hidden="true"></i> Kayıt Formu <i class="fa fa-book" aria-hidden="true"></i></legend>
+
+            <div class="icerik">
+                <div class="content1">
+                    <i class="fa fa-user-circle-o" aria-hidden="true"></i> <input type="text" name="isim" id="isim" placeholder="İsim">
+                    <hr>
+                    <i class="fa fa-envelope" aria-hidden="true"></i> <input type="email" name="email" id="email" placeholder="Email">
+                    <hr>
+                    <i class="fa fa-phone" aria-hidden="true"></i> <input type="tel" name="tel" id="telefon" placeholder="Telefon"><br>
+                    <hr>
+                    <select name="sehir" id="sehir">
+                        <option value="00">Şehir Seçiniz</option>
+                    </select> 
+                    <select name="ulke" id="ulke">
+                        <option value="01">Ülke Seçiniz</option>
+                    </select>
+                </div>
+                <div class="content3"><i class="fa fa-id-card fa-5x" aria-hidden="true"></i></div>
+                <div class="content2">
+                    <i class="fa fa-user" aria-hidden="true"></i> <input type="text" name="kullanici" id="kullaniciadi" placeholder="Kullanıcı Adı"><br>
+                    <hr>
+                    <i class="fa fa-unlock-alt" aria-hidden="true"></i> <input type="password" name="password" id="password" placeholder="Şifre"><br>
+                    <hr>
+                    <i class="fa fa-unlock-alt" aria-hidden="true"></i> <input type="password" name="password" id="respassword" placeholder="Şifre Tekrar">
+                    <hr>   
+                    
+                    <input type="submit" value="Kayıt Ol" id="kayit">
+                    
+                
+                </div>
+            </div>
+        </fieldset>
+        
+
+
+    </div>
+    
+</body>
+</html>
